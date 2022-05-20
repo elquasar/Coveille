@@ -1,0 +1,31 @@
+Données disponibles sur SPF : 
+
+-> cas_positif_cum : cas positif cumulées depuis le 18 mars 2020
+-> cas_positif : nouveaux cas confirmés quotidien depuis le 18 mars 2020  
+-> nombre_test : nombre de tests effectués
+-> nombre_test_cum : nombre de tests cumulés effectués
+-> dc : nombre de décès cumulés en hospital 
+-> rad : nombre de sortie de l'hospital
+-> rea : nombre de patient en réanimation
+-> hosp : nombre d'entrée à l'hospital
+-> vaccin0 : nombre de personnes vaccinés avec Pfizer
+-> vaccin1 : nombre de personnes vaccinés avec Moderna
+-> vaccin2 : nombre de personnes vaccinés avec AstraZeneca
+-> vaccin3 : nombre de personnes vaccinés avec J&J
+-> Prc_UK  : Pourcentage variant UK dans les PCR
+-> Prc_BR_ZA : Pourcentage variant Brésilien/Sud-Africain dans les PCR
+-> cas_positif_origin : nombre de cas positifs de la souche original du Covid-19
+-> cas_positif_UK : nombre de cas positifs de la souche UK 
+-> cas_positif_BR_ZA : nombre de cas positifs de la souche Brésilien/Sud-Africain
+-> cas_positif_other : nombre cas positifs de souche inconuue
+
+Données pour modèle compartimentaux disponible : 
+
+- Modèle SI : Susceptible - Infected
+- Modèle SIR : Susceptible - Infected - Recovered
+- Modèle SIRD : Susceptile - Infected - Recovered - Death
+- Modèle SIRDV : Susceptile - Infected - Recovered - Death - Vaccinated
+
+** Utiliser give_compartiment("Nom du modèle disponible") (ex: give_compartiment("SI")),
+pour obtenir ces données.
+** Pour les données brutes, utiliser data_parser_spf().
