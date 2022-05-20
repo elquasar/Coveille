@@ -33,5 +33,7 @@ Thanks to this data we can estimate the different parameters of the models.
 It is possible to execute the interactive.py script, which allows the simulation of models via an interface in a terminal. 
 However, all the methods are not implemented, for a more advanced use, you must be inspired by the "sim_SIRD.py" script. 
 
+# A few remarks
+
 The source code of this project contains the basis for the understanding and simulation of stochastic and deterministic epidemic models. Some parts of this project are hidden for confidentiality reasons, notably the prediction and decision making part on possible health policies to be conducted. This project was carried out as part of the study of the spread of the COVID-19 epidemic in France. 
 
