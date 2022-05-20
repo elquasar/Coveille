@@ -88,6 +88,6 @@ if __name__ == '__main__':
     nu = np.array(nu)
 
 
-params = np.array([sird.parameters['beta'],sird.parameters['gamma'], sird.parameters['nu']])
-mean_estimation = np.array([beta.mean(),gamma.mean(),nu.mean()])
-print("Estimation méthode inverse : ", mean_estimation)
+    params = np.array([sird.parameters['beta'],sird.parameters['gamma'], sird.parameters['nu']])
+    mean_estimation = np.array([beta.mean(),gamma.mean(),nu.mean()])
+    print("Estimation méthode inverse : ", mean_estimation)
